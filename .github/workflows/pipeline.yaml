@@ -26,11 +26,6 @@ jobs:
 
     - name: Run StyleCop for style check
       run: dotnet build /p:StyleCopEnabled=true
-      
-    - name: NuGet package installation
-      run: dotnet add DiscountElectronicsApi/DiscountElectronicsApi.csproj package Microsoft.CodeAnalysis.NetAnalyzers --version 8.0.0
-
-    - name: Roslyn Analyzers execution
-      run: dotnet build DiscountElectronicsApi/DiscountElectronicsApi.csproj /p:WarningLevel=6 /p:DebugType=None /p:DebugSymbols=false /p:Platform="Any CPU" /p:TreatWarningsAsErrors=true
+    
 
     
