@@ -22,10 +22,10 @@ jobs:
       run: dotnet restore
 
     - name: Install StyleCop.GlobalTool
-      run: dotnet tool install -g StyleCop.GlobalTool --version 16.0.0
+      run: dotnet add package StyleCop.Analyzers --version 1.1.118
 
     - name: Run StyleCop for style check
-      run: dotnet stylecop check KursachAPI2/KursachAPI2.csproj
+      run: dotnet build /p:StyleCopEnabled=true
       
     - name: NuGet package installation
       run: dotnet add DiscountElectronicsApi/DiscountElectronicsApi.csproj package Microsoft.CodeAnalysis.NetAnalyzers --version 8.0.0
