@@ -1,0 +1,974 @@
+2024-03-19 20:07:04.8008|INFO|Program|Start my Api
+2024-03-19 20:07:05.7488|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2024-03-19 20:07:05.7767|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-19 20:07:05.9105|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-03-19 20:07:05.9470|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\victo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-19 20:07:05.9470|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\victo\AppData\Local\ASP.NET\DataProtection-Keys\key-1e910797-4a5b-41c9-bae3-f2240d5fefc2.xml'.
+2024-03-19 20:07:05.9470|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\victo\AppData\Local\ASP.NET\DataProtection-Keys\key-7b2d7ed5-63ba-4ede-9fda-761567db3e5e.xml'.
+2024-03-19 20:07:05.9470|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\victo\AppData\Local\ASP.NET\DataProtection-Keys\key-a69a6fb7-7330-4f00-aabb-6f86a1c42165.xml'.
+2024-03-19 20:07:05.9470|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\victo\AppData\Local\ASP.NET\DataProtection-Keys\key-b7bc1883-08fc-457c-bec1-67e4200f61a0.xml'.
+2024-03-19 20:07:05.9470|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {1e910797-4a5b-41c9-bae3-f2240d5fefc2}.
+2024-03-19 20:07:05.9470|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {7b2d7ed5-63ba-4ede-9fda-761567db3e5e}.
+2024-03-19 20:07:05.9470|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {a69a6fb7-7330-4f00-aabb-6f86a1c42165}.
+2024-03-19 20:07:05.9470|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {b7bc1883-08fc-457c-bec1-67e4200f61a0}.
+2024-03-19 20:07:05.9623|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {1e910797-4a5b-41c9-bae3-f2240d5fefc2} with expiration date 2024-05-15 18:59:43Z as default key.
+2024-03-19 20:07:05.9623|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-03-19 20:07:05.9623|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2024-03-19 20:07:05.9623|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-03-19 20:07:05.9623|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-03-19 20:07:05.9623|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-03-19 20:07:05.9623|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {1e910797-4a5b-41c9-bae3-f2240d5fefc2} as the default key.
+2024-03-19 20:07:05.9623|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {1e910797-4a5b-41c9-bae3-f2240d5fefc2} was loaded during application startup.
+2024-03-19 20:07:06.1083|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://192.168.20.1:5021
+2024-03-19 20:07:06.1083|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly DiscountElectronicsApi
+2024-03-19 20:07:06.1083|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-19 20:07:06.1083|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-19 20:07:06.1083|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-03-19 20:07:06.1083|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-03-19 20:07:06.1083|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\victo\source\repos\DiscountElectronicsApi\DiscountElectronicsApi\
+2024-03-19 20:07:06.1083|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-03-19 20:07:06.1668|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF0" accepted.
+2024-03-19 20:07:06.1668|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF0" started.
+2024-03-19 20:07:06.1668|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF0" received FIN.
+2024-03-19 20:07:06.1668|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 20:07:06.1668|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF0" disconnecting.
+2024-03-19 20:07:06.1833|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF0" stopped.
+2024-03-19 20:07:07.1234|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF1" accepted.
+2024-03-19 20:07:07.1234|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF1" started.
+2024-03-19 20:07:07.1411|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF2" accepted.
+2024-03-19 20:07:07.1411|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF2" started.
+2024-03-19 20:07:07.2030|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/swagger/index.html - -
+2024-03-19 20:07:07.3940|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-03-19 20:07:07.3940|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 20:07:07.4284|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-03-19 20:07:07.4284|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-03-19 20:07:07.5438|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-03-19 20:07:07.5438|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-03-19 20:07:07.5703|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-03-19 20:07:07.5703|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-03-19 20:07:07.5703|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF1" completed keep alive response.
+2024-03-19 20:07:07.5703|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/swagger/index.html - - - 200 - text/html;charset=utf-8 375.1659ms
+2024-03-19 20:07:07.6220|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/_vs/browserLink - -
+2024-03-19 20:07:07.6220|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/_framework/aspnetcore-browser-refresh.js - -
+2024-03-19 20:07:07.6361|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF1" completed keep alive response.
+2024-03-19 20:07:07.6361|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/_framework/aspnetcore-browser-refresh.js - - - 200 13780 application/javascript;+charset=utf-8 9.7916ms
+2024-03-19 20:07:07.7569|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF2" completed keep alive response.
+2024-03-19 20:07:07.7569|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 134.9811ms
+2024-03-19 20:07:07.8136|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/swagger/v1/swagger.json - -
+2024-03-19 20:07:07.8136|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 20:07:07.8136|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-03-19 20:07:07.8136|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-03-19 20:07:08.1285|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF2" completed keep alive response.
+2024-03-19 20:07:08.1285|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 315.0093ms
+2024-03-19 20:07:11.0662|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF1" received FIN.
+2024-03-19 20:07:11.0662|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF2" received FIN.
+2024-03-19 20:07:11.0662|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 20:07:11.0662|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 20:07:11.0662|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF1" disconnecting.
+2024-03-19 20:07:11.0662|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF2" disconnecting.
+2024-03-19 20:07:11.0885|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF1" stopped.
+2024-03-19 20:07:11.0885|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF2" stopped.
+2024-03-19 20:07:22.5178|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF3" accepted.
+2024-03-19 20:07:22.5178|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF3" started.
+2024-03-19 20:07:22.5178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://192.168.20.1:5021/api/Users/Sign_in application/json 59
+2024-03-19 20:07:22.5178|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 20:07:22.5284|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Users/Sign_in'
+2024-03-19 20:07:22.5284|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.UsersController.signIn (DiscountElectronicsApi)' with route pattern 'api/Users/Sign_in' is valid for the request path '/api/Users/Sign_in'
+2024-03-19 20:07:22.5284|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.UsersController.signIn (DiscountElectronicsApi)'
+2024-03-19 20:07:22.5284|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 20:07:22.5284|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-03-19 20:07:22.5430|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.UsersController.signIn (DiscountElectronicsApi)'
+2024-03-19 20:07:22.5727|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "signIn", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] signIn(Test) on controller DiscountElectronicsApi.Controllers.UsersController (DiscountElectronicsApi).
+2024-03-19 20:07:22.5727|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 20:07:22.5727|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 20:07:22.5727|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 20:07:22.5727|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 20:07:22.5727|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 20:07:22.5727|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 20:07:22.5727|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 20:07:22.5727|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.UsersController (DiscountElectronicsApi)
+2024-03-19 20:07:22.7390|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-19 20:07:22.7678|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.UsersController (DiscountElectronicsApi)
+2024-03-19 20:07:22.7752|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'test' of type 'DiscountElectronicsApi.Controllers.UsersController+Test' ...
+2024-03-19 20:07:22.7752|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'test' of type 'DiscountElectronicsApi.Controllers.UsersController+Test' using the name '' in request data ...
+2024-03-19 20:07:22.7752|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-03-19 20:07:22.7752|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN286S0KFAF3", Request id "0HN286S0KFAF3:00000002": started reading request body.
+2024-03-19 20:07:22.7752|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN286S0KFAF3", Request id "0HN286S0KFAF3:00000002": done reading request body.
+2024-03-19 20:07:22.7752|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'DiscountElectronicsApi.Controllers.UsersController+Test'
+2024-03-19 20:07:22.7752|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'test' of type 'DiscountElectronicsApi.Controllers.UsersController+Test'.
+2024-03-19 20:07:22.7752|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'test' of type 'DiscountElectronicsApi.Controllers.UsersController+Test'.
+2024-03-19 20:07:22.7882|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'test' of type 'DiscountElectronicsApi.Controllers.UsersController+Test' ...
+2024-03-19 20:07:22.7882|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'test' of type 'DiscountElectronicsApi.Controllers.UsersController+Test'.
+2024-03-19 20:07:22.7882|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 20:07:22.7882|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 20:07:22.7882|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 20:07:22.7882|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 20:07:22.7882|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.UsersController.signIn (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 20:07:22.7882|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.UsersController.signIn (DiscountElectronicsApi) with arguments (DiscountElectronicsApi.Controllers.UsersController+Test)
+2024-03-19 20:07:23.5479|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 20:07:23.6287|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(x => x.Email == __test_username_0)'
+2024-03-19 20:07:23.9804|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.IdUsers (int?) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Email (string) MaxLength(256) Ansi, 1], [Property: User.IdRole (int?), 2], [Property: User.Password (string) MaxLength(50) Ansi, 3], [Property: User.Salt (string) MaxLength(256) Ansi, 4] }
+        SELECT TOP(1) u.ID_Users, u.Email, u.ID_Role, u.Password, u.Salt
+        FROM Users AS u
+        WHERE u.Email == @__test_username_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    DiscountElectronicsApi.Models.discount_electronicContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-03-19 20:07:24.0557|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 20:07:24.1163|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (59ms).
+2024-03-19 20:07:24.1163|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 20:07:24.4576|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 20:07:24.4712|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__test_username_0='?' (Size = 256) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[ID_Users], [u].[Email], [u].[ID_Role], [u].[Password], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__test_username_0
+2024-03-19 20:07:24.5388|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (73ms) [Parameters=[@__test_username_0='?' (Size = 256) (DbType = AnsiString)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[ID_Users], [u].[Email], [u].[ID_Role], [u].[Password], [u].[Salt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__test_username_0
+2024-03-19 20:07:24.5994|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 20:07:24.6359|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 20:07:24.6359|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 20:07:24.6486|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 20:07:24.9929|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.UsersController.signIn (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2189.188ms.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2024-03-19 20:07:24.9929|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 20:07:24.9929|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-03-19 20:07:24.9929|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-03-19 20:07:24.9929|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 20:07:24.9929|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 20:07:25.0076|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 20:07:25.0076|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 20:07:25.0076|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.UsersController.signIn (DiscountElectronicsApi) in 2433.754ms
+2024-03-19 20:07:25.0076|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.UsersController.signIn (DiscountElectronicsApi)'
+2024-03-19 20:07:25.0076|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF3" completed keep alive response.
+2024-03-19 20:07:25.0076|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 20:07:25.0264|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://192.168.20.1:5021/api/Users/Sign_in application/json 59 - 200 - text/plain;+charset=utf-8 2507.7655ms
+2024-03-19 20:07:53.8108|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://192.168.20.1:5021/api/Categories application/json 44
+2024-03-19 20:07:53.8108|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 20:07:53.8108|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Categories'
+2024-03-19 20:07:53.8108|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.CategoriesController.PostCategory (DiscountElectronicsApi)' with route pattern 'api/Categories' is valid for the request path '/api/Categories'
+2024-03-19 20:07:53.8108|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.CategoriesController.PostCategory (DiscountElectronicsApi)'
+2024-03-19 20:07:53.8108|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 20:07:53.8671|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-03-19 20:07:53.8671|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (2)
+2024-03-19 20:07:53.8671|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-03-19 20:07:53.8671|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF3" completed keep alive response.
+2024-03-19 20:07:53.8671|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://192.168.20.1:5021/api/Categories application/json 44 - 401 0 - 70.2646ms
+2024-03-19 20:07:53.8671|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN286S0KFAF3", Request id "0HN286S0KFAF3:00000003": started reading request body.
+2024-03-19 20:07:53.8671|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN286S0KFAF3", Request id "0HN286S0KFAF3:00000003": done reading request body.
+2024-03-19 20:08:15.2635|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://192.168.20.1:5021/api/Categories application/json 44
+2024-03-19 20:08:15.2635|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 20:08:15.2635|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Categories'
+2024-03-19 20:08:15.2635|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.CategoriesController.PostCategory (DiscountElectronicsApi)' with route pattern 'api/Categories' is valid for the request path '/api/Categories'
+2024-03-19 20:08:15.2635|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.CategoriesController.PostCategory (DiscountElectronicsApi)'
+2024-03-19 20:08:15.2635|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 20:08:15.2733|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-03-19 20:08:15.2733|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (2)
+2024-03-19 20:08:15.2733|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-03-19 20:08:15.2733|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF3" completed keep alive response.
+2024-03-19 20:08:15.2733|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://192.168.20.1:5021/api/Categories application/json 44 - 401 0 - 11.1213ms
+2024-03-19 20:08:15.2733|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN286S0KFAF3", Request id "0HN286S0KFAF3:00000004": started reading request body.
+2024-03-19 20:08:15.2733|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN286S0KFAF3", Request id "0HN286S0KFAF3:00000004": done reading request body.
+2024-03-19 20:17:07.9214|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF3" received FIN.
+2024-03-19 20:17:07.9214|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF3" disconnecting.
+2024-03-19 20:17:07.9214|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 20:17:07.9380|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF3" stopped.
+2024-03-19 23:11:36.4461|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF4" accepted.
+2024-03-19 23:11:36.4461|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF4" started.
+2024-03-19 23:11:36.4856|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:11:36.5079|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:11:36.5325|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:11:36.5325|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:11:36.5325|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:11:36.5325|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:11:36.5325|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:11:36.5639|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:11:36.5639|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:11:36.5639|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:11:36.5639|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:11:36.5639|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:11:36.5639|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:11:36.5639|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:11:36.5639|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:11:36.5639|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:11:36.5749|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:11:36.5749|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:11:36.5749|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:11:36.5749|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:11:36.5749|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:11:36.5749|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:11:36.6492|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:11:36.6492|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Branch>()'
+2024-03-19 23:11:36.6798|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Branch>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Branch.IdBranches (int?) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Branch.Address (string) Ansi, 1] }
+        SELECT b.ID_Branches, b.Address
+        FROM Branches AS b), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Branch>, 
+    DiscountElectronicsApi.Models.discount_electronicContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-19 23:11:36.7312|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:11:36.7312|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (1ms).
+2024-03-19 23:11:36.7459|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:11:36.8896|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:11:36.9001|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:11:36.9474|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:11:36.9884|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:11:37.0086|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:11:37.0086|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:11:37.0086|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:11:37.0266|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 450.7765ms.
+2024-03-19 23:11:37.0266|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:11:37.0266|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:11:37.0266|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:11:37.0266|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:11:37.0266|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:11:37.0266|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:11:37.0266|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:11:37.0266|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:11:37.0266|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:11:37.0266|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:11:37.0266|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:11:37.0266|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:11:37.0266|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:11:37.0266|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:11:37.0266|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:11:37.0460|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:11:37.0460|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:11:37.0460|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:11:37.0460|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:11:37.0460|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:11:37.0460|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:11:37.0460|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:11:37.0460|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 485.3162ms
+2024-03-19 23:11:37.0460|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:11:37.0556|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF4" completed keep alive response.
+2024-03-19 23:11:37.0556|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:11:37.0556|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 571.0776ms
+2024-03-19 23:12:38.3087|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF4" reset.
+2024-03-19 23:12:38.3087|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 23:12:38.3591|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF4" disconnecting.
+2024-03-19 23:12:38.4313|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF4" stopped.
+2024-03-19 23:17:40.2714|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF5" accepted.
+2024-03-19 23:17:40.2714|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF5" started.
+2024-03-19 23:17:40.2924|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:17:40.2924|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:17:40.2924|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:17:40.2924|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:17:40.2924|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:40.2924|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:17:40.2924|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:17:40.2924|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:17:40.2924|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:17:40.2924|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:17:40.2924|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:17:40.2924|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:17:40.4307|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:17:40.4307|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:17:40.4307|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-19 23:17:40.4307|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:17:40.4307|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:17:40.4307|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:17:40.4865|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:17:40.4865|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:17:40.4865|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:17:40.4865|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:17:40.4865|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:17:40.4865|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 183.4797ms.
+2024-03-19 23:17:40.4865|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:17:40.4865|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:17:40.4865|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:17:40.4865|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:17:40.4865|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:40.4865|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:40.4865|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:17:40.4865|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:17:40.4865|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:17:40.4865|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:17:40.4865|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:17:40.4865|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:17:40.4865|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:17:40.4865|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:17:40.4865|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:17:40.5164|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:17:40.5164|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:17:40.5164|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:17:40.5164|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:40.5164|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:40.5164|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:40.5164|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:40.5164|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 216.409ms
+2024-03-19 23:17:40.5164|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:17:40.5164|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF5" completed keep alive response.
+2024-03-19 23:17:40.5164|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:17:40.5164|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 224.5784ms
+2024-03-19 23:17:51.0305|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF5" reset.
+2024-03-19 23:17:51.0405|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 23:17:51.0405|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF5" disconnecting.
+2024-03-19 23:17:51.0806|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF5" stopped.
+2024-03-19 23:17:57.4138|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF6" accepted.
+2024-03-19 23:17:57.4138|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF6" started.
+2024-03-19 23:17:57.4612|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:17:57.4612|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:17:57.4612|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:17:57.4612|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:17:57.4612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:57.4612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:17:57.4612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:17:57.4612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:17:57.4612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:17:57.4612|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:17:57.4612|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:17:57.4612|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:17:57.4612|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:17:57.4612|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:17:57.4766|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13.6367ms.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:17:57.4766|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:57.4766|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:17:57.4766|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 23.8937ms
+2024-03-19 23:17:57.4766|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF6" completed keep alive response.
+2024-03-19 23:17:57.4766|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:17:57.4766|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 28.0105ms
+2024-03-19 23:18:35.9953|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF6" reset.
+2024-03-19 23:18:36.0088|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 23:18:36.0246|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF6" disconnecting.
+2024-03-19 23:18:36.0569|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF6" stopped.
+2024-03-19 23:18:39.9560|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF7" accepted.
+2024-03-19 23:18:39.9560|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF7" started.
+2024-03-19 23:18:39.9714|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:18:39.9714|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:18:39.9714|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:18:39.9714|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:18:39.9714|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:18:39.9714|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:18:39.9714|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:18:39.9714|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:18:39.9714|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:18:39.9714|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:18:39.9714|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:18:39.9714|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:18:39.9714|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:18:39.9773|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:18:39.9773|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.6883ms.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:18:39.9773|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:18:39.9773|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:18:39.9773|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 5.7984ms
+2024-03-19 23:18:39.9773|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF7" completed keep alive response.
+2024-03-19 23:18:39.9773|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:18:39.9773|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 7.5830ms
+2024-03-19 23:18:42.3849|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF7" reset.
+2024-03-19 23:18:42.3849|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 23:18:42.3849|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF7" disconnecting.
+2024-03-19 23:18:42.4310|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF7" stopped.
+2024-03-19 23:34:13.6111|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF8" accepted.
+2024-03-19 23:34:13.6111|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF8" started.
+2024-03-19 23:34:13.6267|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:34:13.6267|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:34:13.6267|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:34:13.6267|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:34:13.6267|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:34:13.6267|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:34:13.6267|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:34:13.6267|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:34:13.6267|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:34:13.6267|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:34:13.6267|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:34:13.6267|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:34:13.6267|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:34:13.6325|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:34:13.6325|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:34:13.6325|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:34:13.6325|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:34:13.6325|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:34:13.6325|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:34:13.6325|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:34:13.6325|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:34:13.6325|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:34:13.6325|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:34:13.6325|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:34:13.6325|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-19 23:34:13.6325|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:34:13.6961|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:34:13.6961|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 67.1915ms.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:34:13.6961|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:34:13.6961|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:34:13.6961|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 69.3835ms
+2024-03-19 23:34:13.6961|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF8" completed keep alive response.
+2024-03-19 23:34:13.6961|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:34:13.6961|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 75.5188ms
+2024-03-19 23:34:28.4235|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF8" reset.
+2024-03-19 23:34:28.4235|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 23:34:28.4235|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF8" disconnecting.
+2024-03-19 23:34:28.4864|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF8" stopped.
+2024-03-19 23:35:37.9546|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF9" accepted.
+2024-03-19 23:35:37.9546|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF9" started.
+2024-03-19 23:35:37.9731|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:35:37.9776|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:35:37.9776|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:35:37.9776|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:35:37.9776|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:35:37.9776|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:35:37.9776|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.1408ms.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:35:37.9776|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:35:37.9776|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:35:37.9776|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 11.6302ms
+2024-03-19 23:35:37.9776|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF9" completed keep alive response.
+2024-03-19 23:35:37.9776|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:35:37.9776|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 17.5688ms
+2024-03-19 23:35:53.9052|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF9" reset.
+2024-03-19 23:35:53.9185|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAF9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 23:35:53.9185|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF9" disconnecting.
+2024-03-19 23:35:53.9543|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAF9" stopped.
+2024-03-19 23:36:34.1385|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAFA" accepted.
+2024-03-19 23:36:34.1385|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAFA" started.
+2024-03-19 23:36:34.1535|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:36:34.1535|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:36:34.1535|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:34.1535|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:36:34.1535|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:34.1535|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:36:34.1535|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:34.1535|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:34.1535|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:34.1535|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:34.1535|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:36:34.1535|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:34.1535|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:36:34.1649|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:34.1649|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.9143ms.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:36:34.1649|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:34.1649|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:34.1649|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 12.1031ms
+2024-03-19 23:36:34.1649|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAFA" completed keep alive response.
+2024-03-19 23:36:34.1649|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:36:34.1649|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 17.5166ms
+2024-03-19 23:36:45.0079|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:36:45.0079|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:45.0079|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:45.0079|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:36:45.0079|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:36:45.0079|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:45.0079|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.8303ms.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:36:45.0079|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:45.0079|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:45.0079|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 5.1274ms
+2024-03-19 23:36:45.0079|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAFA" completed keep alive response.
+2024-03-19 23:36:45.0079|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:36:45.0079|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 6.7239ms
+2024-03-19 23:36:46.6457|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:36:46.6457|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:36:46.6457|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:46.6457|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:36:46.6457|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:46.6457|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:36:46.6457|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:46.6457|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:46.6457|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:46.6457|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:46.6457|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:36:46.6457|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:46.6457|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:36:46.6486|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:46.6486|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.3383ms.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:36:46.6486|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:46.6486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:46.6486|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 4.1816ms
+2024-03-19 23:36:46.6486|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAFA" completed keep alive response.
+2024-03-19 23:36:46.6486|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:36:46.6486|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 5.1122ms
+2024-03-19 23:36:51.6770|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:36:51.6770|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:36:51.6770|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:36:51.6770|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:36:51.6770|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:51.6770|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:36:51.6770|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:51.6770|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:36:51.6770|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:36:51.6770|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:36:51.6770|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:51.6790|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:36:51.6790|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:36:51.6790|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:51.6790|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.2179ms.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:36:51.6790|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:51.6790|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:51.6790|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 3.9602ms
+2024-03-19 23:36:51.6790|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAFA" completed keep alive response.
+2024-03-19 23:36:51.6790|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:36:51.6790|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 6.2732ms
+2024-03-19 23:36:52.4857|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - -
+2024-03-19 23:36:52.4857|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Branches'
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)' with route pattern 'api/Branches' is valid for the request path '/api/Branches'
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-03-19 23:36:52.4857|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:52.4857|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetBranches", controller = "Branches"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[DiscountElectronicsApi.Models.Branch]]] GetBranches() on controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi).
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-19 23:36:52.4857|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:52.4857|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DiscountElectronicsApi.Controllers.BranchesController (DiscountElectronicsApi)
+2024-03-19 23:36:52.4857|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:52.4857|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:52.4857|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:52.4857|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:52.4857|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) - Validation state: Valid
+2024-03-19 23:36:52.4857|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'discount_electronicContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:52.4857|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:36:52.4857|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[ID_Branches], [b].[Address]
+FROM [Branches] AS [b]
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'discount_electronicContext' started tracking 'Branch' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'discount_electronic' on server 'DESKTOP-VIC\SQLEXPRESS'.
+2024-03-19 23:36:52.4925|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.325ms.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-19 23:36:52.4925|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DiscountElectronicsApi.Models.Branch, DiscountElectronicsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:52.4925|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-03-19 23:36:52.4925|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi) in 11.4704ms
+2024-03-19 23:36:52.4925|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DiscountElectronicsApi.Controllers.BranchesController.GetBranches (DiscountElectronicsApi)'
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAFA" completed keep alive response.
+2024-03-19 23:36:52.4925|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'discount_electronicContext' disposed.
+2024-03-19 23:36:52.4925|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.20.1:5021/api/Branches - - - 200 - application/json;+charset=utf-8 13.1284ms
+2024-03-19 23:36:54.9121|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAFA" reset.
+2024-03-19 23:36:54.9121|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN286S0KFAFA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-19 23:36:54.9166|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAFA" disconnecting.
+2024-03-19 23:36:54.9650|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN286S0KFAFA" stopped.

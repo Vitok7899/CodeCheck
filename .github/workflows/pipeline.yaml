@@ -1,0 +1,31 @@
+﻿name: CodeCheck
+
+on:
+  push:
+    branches:
+      - primary  
+
+jobs:
+  check-syntax:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Repository checkout
+      uses: actions/checkout@v2
+      
+    - name: .NET Core setup
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '6.0.x' 
+
+    - name: Dependencies restore
+      run: dotnet restore
+      
+    - name: NuGet package installation
+      run: dotnet add DiscountElectronicsApi/DiscountElectronicsApi.csproj package Microsoft.CodeAnalysis.NetAnalyzers --version 8.0.0
+
+    - name: Roslyn Analyzers execution
+      run: dotnet build DiscountElectronicsApi/DiscountElectronicsApi.csproj /p:WarningLevel=6 /p:DebugType=None /p:DebugSymbols=false /p:Platform="Any CPU" /p:TreatWarningsAsErrors=true
+
+    - name: Build and check syntax
+      run: dotnet build --configuration Release
