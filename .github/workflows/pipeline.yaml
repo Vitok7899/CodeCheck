@@ -21,8 +21,11 @@ jobs:
     - name: Dependencies restore
       run: dotnet restore
 
-    - name: Build and check syntax
-      run: dotnet build --configuration Release
+    - name: Install StyleCop.GlobalTool
+      run: dotnet tool install -g StyleCop.GlobalTool --version 16.0.0
+
+    - name: Run StyleCop for style check
+      run: dotnet stylecop check KursachAPI2/KursachAPI2.csproj
       
     - name: NuGet package installation
       run: dotnet add DiscountElectronicsApi/DiscountElectronicsApi.csproj package Microsoft.CodeAnalysis.NetAnalyzers --version 8.0.0
